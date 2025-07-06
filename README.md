@@ -110,7 +110,7 @@ gb.fit(X_train, y_train)
 
 def evaluate_model(model, X, y_true, model_name):
     y_pred = model.predict(X)
-    print(f"\n📊 {model_name}")
+    print(f"\n {model_name}")
     print("R² Score:", r2_score(y_true, y_pred))
     print("MAE:", mean_absolute_error(y_true, y_pred))
     print("RMSE:", np.sqrt(mean_squared_error(y_true, y_pred)))
@@ -181,7 +181,7 @@ if st.button("Estimate Price"):
 
 # Run Streamlit App Command:-
 
-python -m streamlit run app.py
+     python -m streamlit run app.py
 
 
   # OUTPUT:-
@@ -190,6 +190,31 @@ python -m streamlit run app.py
 
     
   ![image](https://github.com/user-attachments/assets/325814d6-2962-4fe5-a4ac-c59f9e15100b)
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
